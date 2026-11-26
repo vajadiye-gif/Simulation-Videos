@@ -65,31 +65,31 @@ with ka, kg in {0, 1, 2, 3, 4}. Tuple number = 5 * ka + kg + 1.
 
 | # | ka | kg | alpha1 | alpha2 | gamma11 | gamma12 | gamma22 | Grid | Folder |
 |---|----|----|--------|--------|---------|---------|---------|------|--------|
-| 1 | 0 | 0 | 0.5 | 0.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_01_ka0_kg0`](videos/tuple_01_ka0_kg0) |
-| 2 | 0 | 1 | 0.5 | 0.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_02_ka0_kg1`](videos/tuple_02_ka0_kg1) |
-| 3 | 0 | 2 | 0.5 | 0.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_03_ka0_kg2`](videos/tuple_03_ka0_kg2) |
-| 4 | 0 | 3 | 0.5 | 0.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_04_ka0_kg3`](videos/tuple_04_ka0_kg3) |
-| 5 | 0 | 4 | 0.5 | 0.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_05_ka0_kg4`](videos/tuple_05_ka0_kg4) |
-| 6 | 1 | 0 | 1.5 | 1.2 | 0.2 | 0.5 | 0.8 | 140x140 | [`tuple_06_ka1_kg0`](videos/tuple_06_ka1_kg0) |
-| 7 | 1 | 1 | 1.5 | 1.2 | 1.2 | 1.5 | 1.8 | 140x140 | [`tuple_07_ka1_kg1`](videos/tuple_07_ka1_kg1) |
-| 8 | 1 | 2 | 1.5 | 1.2 | 2.2 | 2.5 | 2.8 | 140x140 | [`tuple_08_ka1_kg2`](videos/tuple_08_ka1_kg2) |
-| 9 | 1 | 3 | 1.5 | 1.2 | 3.2 | 3.5 | 3.8 | 140x140 | [`tuple_09_ka1_kg3`](videos/tuple_09_ka1_kg3) |
-| 10 | 1 | 4 | 1.5 | 1.2 | 4.2 | 4.5 | 4.8 | 140x140 | [`tuple_10_ka1_kg4`](videos/tuple_10_ka1_kg4) |
-| 11 | 2 | 0 | 2.5 | 2.2 | 0.2 | 0.5 | 0.8 | 140x140 | [`tuple_11_ka2_kg0`](videos/tuple_11_ka2_kg0) |
-| 12 | 2 | 1 | 2.5 | 2.2 | 1.2 | 1.5 | 1.8 | 140x140 | [`tuple_12_ka2_kg1`](videos/tuple_12_ka2_kg1) |
-| 13 | 2 | 2 | 2.5 | 2.2 | 2.2 | 2.5 | 2.8 | 140x140 | [`tuple_13_ka2_kg2`](videos/tuple_13_ka2_kg2) |
-| 14 | 2 | 3 | 2.5 | 2.2 | 3.2 | 3.5 | 3.8 | 140x140 | [`tuple_14_ka2_kg3`](videos/tuple_14_ka2_kg3) |
-| 15 | 2 | 4 | 2.5 | 2.2 | 4.2 | 4.5 | 4.8 | 140x140 | [`tuple_15_ka2_kg4`](videos/tuple_15_ka2_kg4) |
-| 16 | 3 | 0 | 3.5 | 3.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_16_ka3_kg0`](videos/tuple_16_ka3_kg0) |
-| 17 | 3 | 1 | 3.5 | 3.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_17_ka3_kg1`](videos/tuple_17_ka3_kg1) |
-| 18 | 3 | 2 | 3.5 | 3.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_18_ka3_kg2`](videos/tuple_18_ka3_kg2) |
-| 19 | 3 | 3 | 3.5 | 3.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_19_ka3_kg3`](videos/tuple_19_ka3_kg3) |
-| 20 | 3 | 4 | 3.5 | 3.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_20_ka3_kg4`](videos/tuple_20_ka3_kg4) |
-| 21 | 4 | 0 | 4.5 | 4.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_21_ka4_kg0`](videos/tuple_21_ka4_kg0) |
-| 22 | 4 | 1 | 4.5 | 4.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_22_ka4_kg1`](videos/tuple_22_ka4_kg1) |
-| 23 | 4 | 2 | 4.5 | 4.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_23_ka4_kg2`](videos/tuple_23_ka4_kg2) |
-| 24 | 4 | 3 | 4.5 | 4.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_24_ka4_kg3`](videos/tuple_24_ka4_kg3) |
-| 25 | 4 | 4 | 4.5 | 4.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_25_ka4_kg4`](videos/tuple_25_ka4_kg4) |
+| 1 | 0 | 0 | 0.5 | 0.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_01_ka0_kg0`](https://drive.google.com/drive/folders/137St0Bwzu714FzmdNuw39kQpawU-r9X6) |
+| 2 | 0 | 1 | 0.5 | 0.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_02_ka0_kg1`](https://drive.google.com/drive/folders/1Fc1Uz1TB0Ox1-vdHQ_PedXa9kI7CpsqQ) |
+| 3 | 0 | 2 | 0.5 | 0.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_03_ka0_kg2`](https://drive.google.com/drive/folders/1Xdqp8hWDL7CZI-KN9kJwPG8FyJpNiwmp) |
+| 4 | 0 | 3 | 0.5 | 0.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_04_ka0_kg3`](https://drive.google.com/drive/folders/1vPXXsaAf8QqyD0Zo0TSsbVg-B1YwRfwy) |
+| 5 | 0 | 4 | 0.5 | 0.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_05_ka0_kg4`](https://drive.google.com/drive/folders/1D4y0RFVYfv_AoBToSGyuL7P7E23i6yFk) |
+| 6 | 1 | 0 | 1.5 | 1.2 | 0.2 | 0.5 | 0.8 | 140x140 | [`tuple_06_ka1_kg0`](https://drive.google.com/drive/folders/1Ip9oL5aq5BJH4lhfiSJGnENLcj7qgHNi) |
+| 7 | 1 | 1 | 1.5 | 1.2 | 1.2 | 1.5 | 1.8 | 140x140 | [`tuple_07_ka1_kg1`](https://drive.google.com/drive/folders/1myDgJJnGFmrOmIJiSZN9gkoSX3XFFCpI) |
+| 8 | 1 | 2 | 1.5 | 1.2 | 2.2 | 2.5 | 2.8 | 140x140 | [`tuple_08_ka1_kg2`](https://drive.google.com/drive/folders/1Ydrhnp8ZqyTPG1paf8veB_f0JvzjdjD5) |
+| 9 | 1 | 3 | 1.5 | 1.2 | 3.2 | 3.5 | 3.8 | 140x140 | [`tuple_09_ka1_kg3`](https://drive.google.com/drive/folders/1OyzNlYBljLOZWT3ik7m_Lqhm3quLcHeq) |
+| 10 | 1 | 4 | 1.5 | 1.2 | 4.2 | 4.5 | 4.8 | 140x140 | [`tuple_10_ka1_kg4`](https://drive.google.com/drive/folders/1LswGsmuaPnkjoz7IJwo7l9KOcS8BHAaU) |
+| 11 | 2 | 0 | 2.5 | 2.2 | 0.2 | 0.5 | 0.8 | 140x140 | [`tuple_11_ka2_kg0`](https://drive.google.com/drive/folders/1Wr86rVvrGK_id6xsKLIyhGufpzZIzf_2) |
+| 12 | 2 | 1 | 2.5 | 2.2 | 1.2 | 1.5 | 1.8 | 140x140 | [`tuple_12_ka2_kg1`](https://drive.google.com/drive/folders/19ZsOBVkdz9wHlgf1k0fBIMMWkuVaBPDK) |
+| 13 | 2 | 2 | 2.5 | 2.2 | 2.2 | 2.5 | 2.8 | 140x140 | [`tuple_13_ka2_kg2`](https://drive.google.com/drive/folders/1oBB5aUjGUMpHXldlXVrAO_7kvJK3cVP3) |
+| 14 | 2 | 3 | 2.5 | 2.2 | 3.2 | 3.5 | 3.8 | 140x140 | [`tuple_14_ka2_kg3`](https://drive.google.com/drive/folders/1xHFS-2SXZQE6FgXvGjHzxWJYne93uNp1) |
+| 15 | 2 | 4 | 2.5 | 2.2 | 4.2 | 4.5 | 4.8 | 140x140 | [`tuple_15_ka2_kg4`](https://drive.google.com/drive/folders/1r0lX4ETy4S5808zCQXodGltDik8WF5yp) |
+| 16 | 3 | 0 | 3.5 | 3.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_16_ka3_kg0`](https://drive.google.com/drive/folders/1TsP3_g4W4C9lYNhnxSAwGrnvVCDiBumK) |
+| 17 | 3 | 1 | 3.5 | 3.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_17_ka3_kg1`](https://drive.google.com/drive/folders/1HCzCbIadeKefLxJZ_RWbwnkVp59ULVqy) |
+| 18 | 3 | 2 | 3.5 | 3.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_18_ka3_kg2`](https://drive.google.com/drive/folders/1oSskhGglHxn7Mk64u8zxNOfUFmdTiGqY) |
+| 19 | 3 | 3 | 3.5 | 3.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_19_ka3_kg3`](https://drive.google.com/drive/folders/14zdwU24TTtFwu7h9EG-tpit-9WJTyt0s) |
+| 20 | 3 | 4 | 3.5 | 3.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_20_ka3_kg4`](https://drive.google.com/drive/folders/1QXJwYJANOvELRFw-pxzbhd1ofZw-OxnM) |
+| 21 | 4 | 0 | 4.5 | 4.2 | 0.2 | 0.5 | 0.8 | 120x120 | [`tuple_21_ka4_kg0`](https://drive.google.com/drive/folders/1xI2855Up4SBvnz0283Wi-WqepYx6EtAW) |
+| 22 | 4 | 1 | 4.5 | 4.2 | 1.2 | 1.5 | 1.8 | 120x120 | [`tuple_22_ka4_kg1`](https://drive.google.com/drive/folders/1WAOD-EyCor4bOXohR0gJ06UEYPlfng9R) |
+| 23 | 4 | 2 | 4.5 | 4.2 | 2.2 | 2.5 | 2.8 | 120x120 | [`tuple_23_ka4_kg2`](https://drive.google.com/drive/folders/1FpPDMEfN7RgbK1ErDZl7oSg4MgHtQDpE) |
+| 24 | 4 | 3 | 4.5 | 4.2 | 3.2 | 3.5 | 3.8 | 120x120 | [`tuple_24_ka4_kg3`](https://drive.google.com/drive/folders/1GYo0fMpRL7S1bKq6yoxc_5l6D_j0haxM) |
+| 25 | 4 | 4 | 4.5 | 4.2 | 4.2 | 4.5 | 4.8 | 120x120 | [`tuple_25_ka4_kg4`](https://drive.google.com/drive/folders/1JcZrhnRpOi5L0NSww7jtL3kZnN3eGZl3) |
 
 ## Repository layout
 
