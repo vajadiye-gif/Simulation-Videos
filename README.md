@@ -4,7 +4,7 @@ Screen recordings of simulations for 25 parameter tuples, with 3 independent run
 
 ## Download the videos
 
-📁 **[Open all 75 videos on Google Drive](https://drive.google.com/drive/folders/YOUR_FOLDER_ID?usp=sharing)**
+📁 **[Open all 75 videos on Google Drive](https://drive.google.com/drive/folders/1WyvIvhv-h80lf_WhIfWipEAfWuK6Ef2r?usp=sharing)**
 
 The Drive folder uses the same layout as this repository (`tuple_XX_ka{a}_kg{g}/run_N.mp4`), so the paths in `manifest.csv` match.
 
