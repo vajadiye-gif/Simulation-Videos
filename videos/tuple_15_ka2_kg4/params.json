@@ -1,0 +1,9 @@
+{
+  "k_alpha": 2,
+  "k_gamma": 4,
+  "alpha1": 2.5,
+  "alpha2": 2.2,
+  "gamma11": 4.2,
+  "gamma12": 4.5,
+  "gamma22": 4.8
+}
