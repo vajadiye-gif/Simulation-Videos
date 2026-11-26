@@ -5,7 +5,7 @@ Generate a GitHub-ready repo skeleton for simulation videos.
 Layout:
     videos/tuple_XX_ka{a}_kg{g}/params.json
     videos/tuple_XX_ka{a}_kg{g}/run_1.mp4 ... run_3.mp4   (you add these)
-    manifest.csv, README.md, .gitattributes, .gitignore
+    videos/README.md (Drive link), manifest.csv, README.md, .gitattributes, .gitignore
 """
 import csv
 import json
@@ -14,6 +14,9 @@ from pathlib import Path
 ROOT = Path("simulation-videos")   # repo folder name
 N_RUNS = 3                         # videos per tuple
 K_VALUES = range(5)                # k = 0..4
+
+# Paste your Drive folder link here (Share -> Anyone with the link -> Viewer)
+DRIVE_LINK = "https://drive.google.com/drive/folders/1WyvIvhv-h80lf_WhIfWipEAfWuK6Ef2r?usp=sharing"
 
 
 def make_params(k_alpha, k_gamma):
@@ -67,6 +70,21 @@ def main():
                 "run": run,
                 "video_path": f"videos/{t['name']}/run_{run}.mp4",
             })
+
+    # videos/README.md: shown by GitHub when the videos folder is opened
+    (videos_dir / "README.md").write_text(
+        "# Videos\n\n"
+        "The videos are hosted on Google Drive, not in this repository.\n\n"
+        f"📁 **[Open all {len(tuples) * N_RUNS} videos on Google Drive]"
+        f"({DRIVE_LINK})**\n\n"
+        "The Drive folder has the same layout as this folder: "
+        "`tuple_XX_ka{a}_kg{g}/run_1.mp4` to "
+        f"`run_{N_RUNS}.mp4`.\n"
+        "Each `tuple_XX_ka{a}_kg{g}` folder here holds only its "
+        "`params.json`.\n\n"
+        "See the main [README](../README.md) for the tuple-to-parameter "
+        "lookup table.\n"
+    )
 
     # Manifest CSV (handy for loading with pandas later)
     with open(ROOT / "manifest.csv", "w", newline="") as f:
