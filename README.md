@@ -41,7 +41,7 @@ ka = 1 gives alpha1 = 1.5, alpha2 = 1.2, and kg = 2 gives gamma11 = 2.2, gamma12
 
 | Setting | Value |
 |---|---|
-| Monte Carlo steps per run | 200,000 |
+| Monte Carlo steps per run | 2,00,000 |
 | Frame interval | 1 frame every 400 MC steps |
 | Frames per video | 500 |
 | Grid size, tuples 6-15 | 140 x 140 |
